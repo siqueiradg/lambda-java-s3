@@ -14,7 +14,7 @@ import java.io.InputStreamReader;
 
 public class S3Lambda {
 
-    public static void main(String[] args) throws IOException {
+    public void main() throws IOException {
         AmazonS3 s3client = AmazonS3ClientBuilder
                 .standard()
                 .build();
